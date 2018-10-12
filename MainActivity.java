@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
+        //Celsius to Fahrenheit
         RadioButton cToF = (RadioButton) findViewById(R.id.CtoF);
         cToF.setOnClickListener(new OnClickListener() {
             @Override
